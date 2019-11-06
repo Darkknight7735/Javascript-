@@ -1,0 +1,15 @@
+var firstname = "Jane";
+var status = 'single';
+
+if (status === 'married'){
+  console.log(firstname + 'is married');
+} else{
+    console.log(firstname + 'will hopefully marry');
+}
+
+var isMarried = true;
+if (isMarried === true){
+  console.log(firstname + 'is married');
+} else{
+    console.log(firstname + 'will hopefully marry');
+}
