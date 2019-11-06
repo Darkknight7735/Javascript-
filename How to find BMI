@@ -1,0 +1,12 @@
+var massmark = 40;
+var heightmark = 168;
+
+var massJohn = 92;
+var heightJohn = 168;
+
+var BMIMark = massmark / (heightmark * heightmark);
+var BMIJohn = massJohn / (heightJohn * heightJohn);
+console.log(BMIMark, BMIJohn);
+
+var markHigherBMI = BMIMark > BMIJohn;
+console.log('Mark is higther ')
