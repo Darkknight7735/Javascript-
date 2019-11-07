@@ -1,0 +1,13 @@
+var firstname =  'John';
+var age =12;
+
+age >=18 ? console.log(firstname + 'drinks beer')
+: console.log(firstname + 'drinks water');
+
+var drink = age>=18 ? 'beer' : 'juice';
+
+if ( age >=18 ) {
+  var drink = 'beer';
+} else {
+  var drink = 'juice';
+}
