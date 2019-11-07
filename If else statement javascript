@@ -1,0 +1,8 @@
+let TeamJohn = (89 +  + 103) /3;
+let TeamMike = (116 +  94 + 500) /3;
+
+if(TeamJohn<=TeamMike){
+  console.log("Team Mike Win" + "with score" + TeamMike )
+} else if  (TeamMike<=TeamJohn){
+  console.log("TeamJohnwin ") } 
+  else(TeamJohn===TeamMike);
