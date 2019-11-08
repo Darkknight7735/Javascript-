@@ -1,0 +1,15 @@
+let whatdoyou = function(job,firstname ){
+  switch(job){
+    case "teacher":
+    return firstname + "teache that teach kdi to code";
+    case "driver":
+    return firstname + "Drive like crazy";
+    case "Coder":
+    return firstname + "Justcode";
+    default:
+    return firstname + "Do somrthing else";
+
+  }
+}
+
+console.log(whatdoyou("driver","John"));
