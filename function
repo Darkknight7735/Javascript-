@@ -1,0 +1,14 @@
+function calculateage(birthyear){
+  return 2019 - birthyear
+}
+
+let Donnyage = calculateage(1991);
+let Duke = calculateage(1932);
+
+console.log(Donnyage,Duke);
+
+function yearsuntilretire(timeleft){
+  return 2050 - timeleft
+}
+  let Kegan = yearsuntilretire(2018)
+  console.log(Kegan)
